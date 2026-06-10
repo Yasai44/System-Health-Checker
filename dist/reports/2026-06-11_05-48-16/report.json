@@ -1,0 +1,134 @@
+{
+    "system": {
+        "os": "Windows-11-10.0.26200-SP0",
+        "cpu_percent": 5.2,
+        "memory": {
+            "total": 16850198528,
+            "available": 2579783680,
+            "percent": 84.7,
+            "used": 14270414848,
+            "free": 2579783680
+        },
+        "disk": {
+            "total": 510445031424,
+            "used": 317404110848,
+            "free": 193040920576,
+            "percent": 62.2
+        },
+        "uptime": "9:17:42.121695",
+        "top_processes": [
+            {
+                "pid": 0,
+                "cpu_percent": 0.0,
+                "name": "System Idle Process"
+            },
+            {
+                "pid": 4,
+                "cpu_percent": 0.0,
+                "name": "System"
+            },
+            {
+                "pid": 188,
+                "cpu_percent": 0.0,
+                "name": ""
+            },
+            {
+                "pid": 232,
+                "cpu_percent": 0.0,
+                "name": "Registry"
+            },
+            {
+                "pid": 836,
+                "cpu_percent": 0.0,
+                "name": "smss.exe"
+            }
+        ]
+    },
+    "security": {
+        "firewall_enabled": true,
+        "suspicious_processes": [
+            {
+                "pid": 14220,
+                "name": "AdobeCollabSync.exe",
+                "cmdline": [
+                    "C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\AdobeCollabSync.exe"
+                ]
+            },
+            {
+                "pid": 15184,
+                "name": "AdobeCollabSync.exe",
+                "cmdline": [
+                    "C:\\Program Files\\Adobe\\Acrobat DC\\Acrobat\\AdobeCollabSync.exe",
+                    "--type=collab-renderer",
+                    "--proc=14220"
+                ]
+            }
+        ],
+        "defender_status": {
+            "real_time_protection": true,
+            "antispyware_enabled": true,
+            "antivirus_enabled": true,
+            "behavior_monitor_enabled": true,
+            "full_scan_age": 4294967295,
+            "quick_scan_age": 0,
+            "definition_status": true
+        },
+        "failed_logins": {
+            "error": "No data returned"
+        },
+        "account_lockouts": []
+    },
+    "network": {
+        "ping_google_dns": true,
+        "dns_resolution": true,
+        "open_ports": [
+            {
+                "port": 135,
+                "service": "RPC"
+            },
+            {
+                "port": 445,
+                "service": "SMB"
+            }
+        ],
+        "network_adapters": {
+            "Local Area Connection* 1": {
+                "ipv4": "169.254.183.62",
+                "mac": "96-BB-43-B4-BF-68"
+            },
+            "Local Area Connection* 2": {
+                "ipv4": "169.254.107.71",
+                "mac": "96-BB-43-B4-AF-78"
+            },
+            "Wi-Fi": {
+                "ipv4": "192.168.1.65",
+                "mac": "94-BB-43-B4-9F-48"
+            },
+            "Bluetooth Network Connection": {
+                "ipv4": "169.254.82.146",
+                "mac": "94-BB-43-B4-9F-49"
+            },
+            "Loopback Pseudo-Interface 1": {
+                "ipv4": "127.0.0.1",
+                "mac": null
+            }
+        },
+        "dns_info": {
+            "dns_servers": [
+                "fec0:0:0:ffff::1",
+                "fec0:0:0:ffff::2",
+                "fec0:0:0:ffff::3",
+                "fec0:0:0:ffff::1",
+                "fec0:0:0:ffff::2",
+                "fec0:0:0:ffff::3",
+                "192.168.1.1",
+                "fec0:0:0:ffff::1",
+                "fec0:0:0:ffff::2",
+                "fec0:0:0:ffff::3",
+                "fec0:0:0:ffff::1",
+                "fec0:0:0:ffff::2",
+                "fec0:0:0:ffff::3"
+            ]
+        }
+    }
+}

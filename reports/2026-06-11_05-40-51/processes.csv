@@ -1,0 +1,6 @@
+pid,name,cpu_percent
+0,System Idle Process,998.8
+16536,mscopilot.exe,47.6
+17132,OneDrive.exe,42.7
+17448,OneDrive.Sync.Service.exe,10.5
+4,System,9.0

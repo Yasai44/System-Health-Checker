@@ -1,0 +1,6 @@
+adapter,ipv4,mac
+Local Area Connection* 1,169.254.183.62,96-BB-43-B4-BF-68
+Local Area Connection* 2,169.254.107.71,96-BB-43-B4-AF-78
+Wi-Fi,192.168.1.65,94-BB-43-B4-9F-48
+Bluetooth Network Connection,169.254.82.146,94-BB-43-B4-9F-49
+Loopback Pseudo-Interface 1,127.0.0.1,
