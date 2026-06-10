@@ -1,0 +1,131 @@
+
+    <html>
+    <head>
+        <title>System Health Report</title>
+        <style>
+            body { font-family: Arial; padding: 20px; }
+            h1 { color: #333; }
+            pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+        </style>
+    </head>
+    <body>
+        <h1>System Health & Security Report</h1>
+        <h2>System</h2>
+        <pre>{
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu_percent": 40.8,
+    "memory": {
+        "total": 16850198528,
+        "available": 3920941056,
+        "percent": 76.7,
+        "used": 12929257472,
+        "free": 3920941056
+    },
+    "disk": {
+        "total": 510445031424,
+        "used": 317848670208,
+        "free": 192596361216,
+        "percent": 62.3
+    },
+    "uptime": "26 days, 10:04:13.269771",
+    "top_processes": [
+        {
+            "pid": 0,
+            "cpu_percent": 0.0,
+            "name": "System Idle Process"
+        },
+        {
+            "pid": 4,
+            "cpu_percent": 0.0,
+            "name": "System"
+        },
+        {
+            "pid": 188,
+            "cpu_percent": 0.0,
+            "name": ""
+        },
+        {
+            "pid": 232,
+            "cpu_percent": 0.0,
+            "name": "Registry"
+        },
+        {
+            "pid": 384,
+            "cpu_percent": 0.0,
+            "name": "CodeSetup-stable-6a44c352bd24569c417e530095901b649960f9f8.tmp"
+        }
+    ]
+}</pre>
+
+        <h2>Security</h2>
+        <pre>{
+    "firewall_enabled": true,
+    "suspicious_processes": [],
+    "defender_status": {
+        "real_time_protection": true,
+        "antispyware_enabled": true,
+        "antivirus_enabled": true,
+        "behavior_monitor_enabled": true,
+        "full_scan_age": 4294967295,
+        "quick_scan_age": 2,
+        "definition_status": true
+    }
+}</pre>
+
+        <h2>Network</h2>
+        <pre>{
+    "ping_google_dns": true,
+    "dns_resolution": true,
+    "open_ports": [
+        {
+            "port": 135,
+            "service": "RPC"
+        },
+        {
+            "port": 445,
+            "service": "SMB"
+        }
+    ],
+    "network_adapters": {
+        "Local Area Connection* 1": {
+            "ipv4": "169.254.183.62",
+            "mac": "96-BB-43-B4-BF-68"
+        },
+        "Local Area Connection* 2": {
+            "ipv4": "169.254.107.71",
+            "mac": "96-BB-43-B4-AF-78"
+        },
+        "Wi-Fi": {
+            "ipv4": "192.168.1.65",
+            "mac": "94-BB-43-B4-9F-48"
+        },
+        "Bluetooth Network Connection": {
+            "ipv4": "169.254.82.146",
+            "mac": "94-BB-43-B4-9F-49"
+        },
+        "Loopback Pseudo-Interface 1": {
+            "ipv4": "127.0.0.1",
+            "mac": null
+        }
+    },
+    "dns_info": {
+        "dns_servers": [
+            "fec0:0:0:ffff::1",
+            "fec0:0:0:ffff::2",
+            "fec0:0:0:ffff::3",
+            "fec0:0:0:ffff::1",
+            "fec0:0:0:ffff::2",
+            "fec0:0:0:ffff::3",
+            "192.168.1.1",
+            "fec0:0:0:ffff::1",
+            "fec0:0:0:ffff::2",
+            "fec0:0:0:ffff::3",
+            "fec0:0:0:ffff::1",
+            "fec0:0:0:ffff::2",
+            "fec0:0:0:ffff::3"
+        ]
+    }
+}</pre>
+    </body>
+    </html>
+    

@@ -1,0 +1,65 @@
+{
+    "system": {
+        "os": "Windows-11-10.0.26200-SP0",
+        "cpu_percent": 28.8,
+        "memory": {
+            "total": 16850198528,
+            "available": 2951958528,
+            "percent": 82.5,
+            "used": 13898240000,
+            "free": 2951958528
+        },
+        "disk": {
+            "total": 510445031424,
+            "used": 316331966464,
+            "free": 194113064960,
+            "percent": 62.0
+        },
+        "uptime": "23 days, 10:14:43.704285",
+        "top_processes": [
+            {
+                "cpu_percent": 0.0,
+                "name": "System Idle Process",
+                "pid": 0
+            },
+            {
+                "cpu_percent": 0.0,
+                "name": "System",
+                "pid": 4
+            },
+            {
+                "cpu_percent": 0.0,
+                "name": "",
+                "pid": 188
+            },
+            {
+                "cpu_percent": 0.0,
+                "name": "Registry",
+                "pid": 232
+            },
+            {
+                "cpu_percent": 0.0,
+                "name": "AsusSoftwareManager.exe",
+                "pid": 444
+            }
+        ]
+    },
+    "security": {
+        "firewall_enabled": true,
+        "suspicious_processes": []
+    },
+    "network": {
+        "ping_google_dns": true,
+        "dns_resolution": true,
+        "open_ports": [
+            {
+                "port": 135,
+                "service": "RPC"
+            },
+            {
+                "port": 445,
+                "service": "SMB"
+            }
+        ]
+    }
+}

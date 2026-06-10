@@ -1,0 +1,92 @@
+
+    <html>
+    <head>
+        <title>System Health Report</title>
+        <style>
+            body { font-family: Arial; padding: 20px; }
+            h1 { color: #333; }
+            pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+        </style>
+    </head>
+    <body>
+        <h1>System Health & Security Report</h1>
+        <h2>System</h2>
+        <pre>{
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu_percent": 27.8,
+    "memory": {
+        "total": 16850198528,
+        "available": 2697015296,
+        "percent": 84.0,
+        "used": 14153183232,
+        "free": 2697015296
+    },
+    "disk": {
+        "total": 510445031424,
+        "used": 316366753792,
+        "free": 194078277632,
+        "percent": 62.0
+    },
+    "uptime": "23 days, 10:17:11.155182",
+    "top_processes": [
+        {
+            "name": "System Idle Process",
+            "cpu_percent": 0.0,
+            "pid": 0
+        },
+        {
+            "name": "System",
+            "cpu_percent": 0.0,
+            "pid": 4
+        },
+        {
+            "name": "",
+            "cpu_percent": 0.0,
+            "pid": 188
+        },
+        {
+            "name": "Registry",
+            "cpu_percent": 0.0,
+            "pid": 232
+        },
+        {
+            "name": "AsusSoftwareManager.exe",
+            "cpu_percent": 0.0,
+            "pid": 444
+        }
+    ]
+}</pre>
+
+        <h2>Security</h2>
+        <pre>{
+    "firewall_enabled": true,
+    "suspicious_processes": [],
+    "defender_status": {
+        "real_time_protection": true,
+        "antispyware_enabled": true,
+        "antivirus_enabled": true,
+        "behavior_monitor_enabled": true,
+        "full_scan_age": 4294967295,
+        "quick_scan_age": 7,
+        "definition_status": true
+    }
+}</pre>
+
+        <h2>Network</h2>
+        <pre>{
+    "ping_google_dns": true,
+    "dns_resolution": true,
+    "open_ports": [
+        {
+            "port": 135,
+            "service": "RPC"
+        },
+        {
+            "port": 445,
+            "service": "SMB"
+        }
+    ]
+}</pre>
+    </body>
+    </html>
+    

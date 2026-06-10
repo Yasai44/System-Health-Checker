@@ -1,0 +1,73 @@
+
+    <html>
+    <head>
+        <title>System Health Report</title>
+        <style>
+            body { font-family: Arial; padding: 20px; }
+            h1 { color: #333; }
+            pre { background: #f4f4f4; padding: 10px; border-radius: 5px; }
+        </style>
+    </head>
+    <body>
+        <h1>System Health & Security Report</h1>
+        <h2>System</h2>
+        <pre>{
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu_percent": 13.2,
+    "memory": {
+        "total": 16850198528,
+        "available": 2065641472,
+        "percent": 87.7,
+        "used": 14784557056,
+        "free": 2065641472
+    },
+    "disk": {
+        "total": 510445031424,
+        "used": 315953876992,
+        "free": 194491154432,
+        "percent": 61.9
+    },
+    "uptime": "23 days, 10:11:17.648982",
+    "top_processes": [
+        {
+            "cpu_percent": 0.0,
+            "name": "System Idle Process",
+            "pid": 0
+        },
+        {
+            "cpu_percent": 0.0,
+            "name": "System",
+            "pid": 4
+        },
+        {
+            "cpu_percent": 0.0,
+            "name": "",
+            "pid": 188
+        },
+        {
+            "cpu_percent": 0.0,
+            "name": "Registry",
+            "pid": 232
+        },
+        {
+            "cpu_percent": 0.0,
+            "name": "AsusSoftwareManager.exe",
+            "pid": 444
+        }
+    ]
+}</pre>
+
+        <h2>Security</h2>
+        <pre>{
+    "firewall_enabled": true,
+    "suspicious_processes": []
+}</pre>
+
+        <h2>Network</h2>
+        <pre>{
+    "ping_google_dns": true,
+    "dns_resolution": true
+}</pre>
+    </body>
+    </html>
+    

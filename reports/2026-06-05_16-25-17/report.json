@@ -1,0 +1,55 @@
+{
+    "system": {
+        "os": "Windows-11-10.0.26200-SP0",
+        "cpu_percent": 16.6,
+        "memory": {
+            "total": 16850198528,
+            "available": 2372440064,
+            "percent": 85.9,
+            "used": 14477758464,
+            "free": 2372440064
+        },
+        "disk": {
+            "total": 510445031424,
+            "used": 315934048256,
+            "free": 194510983168,
+            "percent": 61.9
+        },
+        "uptime": "23 days, 10:10:23.750737",
+        "top_processes": [
+            {
+                "pid": 0,
+                "name": "System Idle Process",
+                "cpu_percent": 0.0
+            },
+            {
+                "pid": 4,
+                "name": "System",
+                "cpu_percent": 0.0
+            },
+            {
+                "pid": 188,
+                "name": "",
+                "cpu_percent": 0.0
+            },
+            {
+                "pid": 232,
+                "name": "Registry",
+                "cpu_percent": 0.0
+            },
+            {
+                "pid": 444,
+                "name": "AsusSoftwareManager.exe",
+                "cpu_percent": 0.0
+            }
+        ]
+    },
+    "security": {
+        "firewall_enabled": true,
+        "suspicious_processes": []
+    },
+    "network": {
+        "ping_google_dns": true,
+        "dns_resolution": true
+    }
+}
